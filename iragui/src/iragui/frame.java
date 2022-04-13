@@ -62,7 +62,7 @@ public class frame {
 	public  void connect()
 	{ try {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		 con= DriverManager.getConnection("jdbc:mysql://localhost:3306/crud","root","Ira@1999");
+		 con= DriverManager.getConnection("jdbc:mysql://localhost:3306/crud","root",*password*);
 		
 		
 		 
